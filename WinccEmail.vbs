@@ -43,7 +43,7 @@ For Each u In xxx
 	Set Email=Nothing
 	Set fso=Nothing
 	Else
-	HMIRuntime.Trace "报表文件夹为空！" & vbCrlf
+	HMIRuntime.Trace "报表文件夹为空！不发送邮件!" & vbCrlf
 	End If
     Else
     HMIRuntime.Trace "以太网连接异常,停止发送邮件!" & vbCrlf
